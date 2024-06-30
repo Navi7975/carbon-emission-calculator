@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for the contact form */
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            width: 75%; /* Set width to 75% of the viewport */
+            max-width: 600px;
+        }
+
+        .contact-form h2 {
+            margin-bottom: 20px;
+            color: #09a811;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+            text-align: left;
+            width: 100%;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .input-group input, .input-group textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        .input-group textarea {
+            height: 120px;
+        }
+
+        .input-group button {
+            width: 100%;
+            background: linear-gradient(to right, #38a04e, #034d31);
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 16px;
+            transition: background 0.3s ease;
+        }
+
+        .input-group button:hover {
+            background: linear-gradient(to right, #58dd8d, #02591c);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#"><img src="logo.png" alt="Logo"></a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="calculator.html">Calculator</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <div class="input-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="input-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="input-group">
+                <button type="submit">Send</button>
+            </div>
+        </form>
+    </div>
+
+
+    <footer>
+        <div class="footer-content">
+            <p>Contact us: info@example.com | +91 123 456 7890</p>
+            <p>© 2024 Personal Carbon Calculator. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

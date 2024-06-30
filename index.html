@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#"><img src="logo.png" alt="Logo"></a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="calculator.html">Calculator</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-content-wrapper">
+        <div class="content-section">
+            <h1> CARBON EMISSION ⚠</h1>
+            <p>Carbon emission refers to the release of carbon dioxide (CO2) and other greenhouse gases into the
+                atmosphere, primarily through human activities such as burning fossil fuels, deforestation, and
+                industrial processes, contributing to global climate change.</p>
+            <button onclick="redirectToAbout()">FOR MORE</button>
+
+
+            <script>
+                function redirectToAbout() {
+                    window.location.href = 'about.html';
+                }
+            </script>
+        </div>
+
+        <div class="video-section">
+            <iframe width="560" height="500" src="./assets/video.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>Contact us: info@example.com | +91 123 456 7890</p>
+            <p>© 2024 Personal Carbon Calculator. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
